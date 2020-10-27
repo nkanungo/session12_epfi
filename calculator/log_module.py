@@ -9,6 +9,11 @@ import math
 
 __all__ = ['log']
 def log(x,base):
+
+    '''
+    Calculates the log of the given value 
+    FInd out the derivative of the log of the given value 
+    '''
     print(f'the return value is {math.log(x,base)}')
     return math.log(x,base)
 

@@ -8,6 +8,10 @@ Created on Tue Oct 27 16:30:27 2020
 __all__ = ['relu']
 
 def relu(x):
+    '''
+    Calculates the ReLU of the given value 
+    FInd out the derivative of the ReLU of the given value 
+    '''
     print(f'the value of relu for given input is { x if x> 0 else 0}')
     return x if x> 0 else 0
 

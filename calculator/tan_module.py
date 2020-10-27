@@ -9,6 +9,10 @@ import math
 __all__ = ['tan']
 
 def tan(x):
+    '''
+    Calculates the tan of the given value 
+    FInd out the derivative of the tan of the given value 
+    '''
     print(f'the value for the tanx of given input is : {math.tan(x)}')
     return math.tan(x)
 def der_tan(x):

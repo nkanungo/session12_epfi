@@ -10,6 +10,10 @@ import math
 
 __all__ = ['sigmoid']
 def sigmoid(x):
+    '''
+    Calculates the Sigmoid  of the given value 
+    FInd out the derivative of the Sigmoid of the given value
+    '''
     print(f'the value of sigmoid for given input is {1 / (1 + math.exp(-x))}')
     return 1 / (1 + math.exp(-x))
 

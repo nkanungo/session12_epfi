@@ -10,6 +10,10 @@ Created on Tue Oct 27 16:30:27 2020
 import math
 __all__ = ['tanh']
 def tanh(x):
+    '''
+    Calculates the tanh of the given value 
+    FInd out the derivative of the tanh of the given value 
+    '''
     print(f'the value for the tanhx of given input is : {math.tanh(x)}')
     return math.tanh(x)
 

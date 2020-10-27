@@ -7,6 +7,11 @@ Created on Tue Oct 27 16:30:27 2020
 import math
 __all__ = ['sin']
 def sin(x):
+    '''
+    Calculates the sin of the given value 
+    FInd out the derivative of the sin of the given value 
+
+    '''
     print(f'the value of sin for given input is :{math.sin(x)}')
     return math.sin(x)
 def der_sin(x):
